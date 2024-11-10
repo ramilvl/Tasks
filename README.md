@@ -1,3 +1,3 @@
-# Task 1
-Netlify Deployment: <br>
+# Tasks
+Task 1 <br>
 https://ramil-task1.netlify.app/
