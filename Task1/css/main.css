@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(195, 96, 228);
+    background: linear-gradient(90deg, rgba(197,144,233,1) 38%, rgba(171,125,244,1) 47%, rgba(159,123,238,1) 52%, rgba(139,105,240,1) 63%, rgba(83,32,238,1) 100%);
 }
 
 .container{
