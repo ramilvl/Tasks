@@ -1,0 +1,61 @@
+.bg_color_pink{
+    background-color: rgb(248, 78, 106);
+}
+
+.bg_color_green{
+    background-color: #30d580ed;
+}
+
+.bg_color_blue{
+    background-color: #5c6adde0;
+}
+
+
+.color_white{
+    color: white;
+}
+
+
+.cursor_pointer{
+    cursor: pointer;
+}
+
+
+.text_size_13px{
+    font-size: 13px;
+}
+
+.text_size_18px{
+    font-size: 18px;
+}
+
+.text_size_35px{
+    font-size: 35px;
+}
+
+
+.font_520{
+    font-weight: 520;
+}
+
+.font_600{
+    font-weight: 600;
+}
+
+
+.mt_15px{
+    margin-top: 15px;
+}
+
+.mt_20px{
+    margin-top: 25px;
+}
+
+.mt_30px{
+    margin-top: 30px;
+}
+
+
+.text_align_center{
+    text-align: center;
+}
