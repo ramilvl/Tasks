@@ -1,0 +1,51 @@
+.text_size_14px{
+    font-size: 14px;
+}
+
+.text_size_16px{
+    font-size: 16px;
+}
+
+.text_size_20px{
+    font-size: 20px;
+}
+
+.text_size_48px{
+    font-size: 48px;
+}
+
+.font_400{
+    font-weight: 400;
+}
+
+.font_500{
+    font-weight: 500;
+}
+
+.font_600{
+    font-weight: 600;
+}
+
+.font_700{
+    font-weight: 700;
+}
+
+.color_white{
+    color: white;
+}
+
+.color_A8{
+   color: #A855F7;
+}
+
+.bg_color_1B{
+    background-color: #1B9E4B;
+}
+
+.cursor_pointer{
+    cursor: pointer;
+}
+
+.border_radius_4px{
+    border-radius: 4px;
+}
