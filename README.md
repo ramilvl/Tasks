@@ -8,5 +8,5 @@ https://ramil-lab1.netlify.app/
 Task2 <br>
 https://ramil-task2.netlify.app/
 <br><br>
-Task3 <br>
+Lab2 <br>
 https://ramil-lab2.netlify.app/
