@@ -1,0 +1,35 @@
+.font_400{
+    font-weight: 400;
+}
+
+.font_900{
+    font-weight: 900;
+}
+
+.text_size_12px{
+    font-size: 12px;
+}
+
+.text_size_14px{
+    font-size: 14px;
+}
+
+.text_size_16px{
+    font-size: 16px;
+}
+
+.text_size_18px{
+    font-size: 18px;
+}
+
+.text_size_32px{
+    font-size: 32px;
+}
+
+.color_51{
+    color: #516FD4;
+}
+
+.cursor_pointer{
+    cursor: pointer;
+}

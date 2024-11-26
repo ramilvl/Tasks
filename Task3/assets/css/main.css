@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1025px;
+    height: 610px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    gap: 140px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    border: 1px solid #BFC8E5;
+    border-radius: 4px;
+    padding: 8px 12px;
+    width: 300px;
+
+}
+
+.search img{
+    width: 32px;
+    height: 32px;
+    fill: #aaa;
+}
+
+.search input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.search::placeholder{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+.titles{
+    display: flex;
+    gap: 8px;
+}
+
+.title{
+    padding: 16px;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in, transform 0.3s ease-in;
+}
+
+.title:hover{
+    border-radius: 8px;
+    background-color: #849FFF;
+    color: white;
+    transform: scale(1.05);
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 50px;
+}
+
+.box{
+    width: 330px;
+    height: 208px;
+    border-radius: 16px;
+    padding: 24px;
+    background-color: #FBFCFF;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    transition: border 0.5s ease, box-shadow 0.5s ease; 
+}
+
+.box:hover{
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px 0px #DAE0F9B2;
+}
+
+.left{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.right_name{
+    display: flex;
+    flex-direction: column;
+}
+
+.right_btn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+button{
+    width: auto;
+    height: 22px;
+    border-radius: 10px;
+    padding: 2px 8px;
+    border: 1px solid #BFC8E5;
+    background-color: white;
+}
