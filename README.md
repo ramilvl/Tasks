@@ -13,3 +13,6 @@ https://ramil-lab2.netlify.app/
 <br><br>
 Task 3 <br>
 https://ramil-task3.netlify.app/
+<br><br>
+Lab 3 <br>
+https://ramil-lab3.netlify.app/
