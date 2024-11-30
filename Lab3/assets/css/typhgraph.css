@@ -1,0 +1,94 @@
+.color_4c{
+    color: #4CAF4F;
+}
+
+.color_71{
+    color: #717171;
+}
+
+.color_f5{
+   color: #F5F7FA;
+}
+
+.font_400{
+    font-weight: 400;
+}
+
+.font_500{
+    font-weight: 500;
+}
+
+.font_600{
+    font-weight: 600;
+}
+
+.font_700{
+    font-weight: 700;
+}
+
+.text_size_14px{
+    font-size: 14px;
+}
+
+.text_size_16px{
+    font-size: 16px;
+}
+
+.text_size_20px{
+    font-size: 20px;
+}
+
+
+.text_size_28px{
+    font-size: 28px;
+}
+
+
+.text_size_36px{
+    font-size: 36px;
+}
+
+.text_size_64px{
+    font-size: 64px;
+}
+
+
+.line_height_20px{
+    line-height: 20px;
+}
+
+.mb_15px{
+    margin-bottom: 15px;
+}
+
+.cursor_pointer{
+    cursor: pointer;
+}
+
+.border_radius_4px{
+    border-radius: 4px;
+}
+
+.border_radius_6px{
+    border-radius: 6px;
+}
+
+.border_radius_8px{
+    border-radius: 8px;
+}
+
+.p_10px{
+    padding: 10px;
+}
+
+.bg_color_f5{
+    background-color: #F5F7FA;
+}
+
+.bg_color_4c{
+    background-color: #4CAF4F;
+}
+
+.color_white{
+    color: white;
+}

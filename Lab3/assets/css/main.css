@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F5F7FA;
+}
+
+.logo img{
+    width: 154px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    gap: 40px;
+}
+
+.navbar span{
+    transition: all 0.5s ease;
+}
+
+.navbar span:hover{
+    background-color: #4CAF4F;
+}
+
+.login_btn{
+    width: 77px;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.login_btn:hover{
+    background-color: #4CAF4F;
+    color: white;
+}
+
+.sign_up_btn{
+    width: 91px;
+    height: 40px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+
+.intro{
+    width: 100%;
+    height: 599px;
+    padding: 94px 144px;
+    display: flex;
+    background-color: #F5F7FA;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.intro button{
+    width: 128px;
+    height: 52px;
+    padding: 14px 32px;
+    border: none;
+}
+
+.intro_left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 657px;
+}
+
+.intro_right{
+    width: 391px;
+    height: 407px;
+}
+
+.client{
+    width: 100%;
+    height: 190px;
+    padding: 0px 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.client_logo{
+    width: 1152px;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.community{
+    width: 100%;
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 40px;
+}
+
+.community span{
+    width: 542px;
+    text-align: center;
+}
+
+.community_boxes{
+    width: 100%;
+    height: 300px;
+    padding: 0px 144px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.community_box{
+    width: 299px;
+    height: 270px;
+    border-radius: 8px;
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+}
+
+.community_box img{
+    width: 65px;
+    height: 56px;
+}
+
+.community_box span{
+    width: 230px;
+    height: 60px;
+}
+
+.pixelgrade_part{
+    width: 100%;
+    height: 443px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 82px 144px;
+    margin-top: 42px;
+}
+
+.pixelgrade_part img{
+    width: 442px;
+    height: 433px;
+}
+
+.pixelgrade_part_info{
+    display: flex;
+    flex-direction: column;
+    width: 582px;
+    height: 268px;
+    gap: 16px;
+}
+
+.pixelgrade_part button{
+    width: 151px;
+    height: 52px;
+    padding: 14px 32px;
+    border: none;
+}
+
+.local{
+    width: 100%;
+    height: 288px;
+    background-color: #F5F7FA;
+    display: flex;
+    padding: 64px 144px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.local_left{
+    width: 540px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.local_left span{
+    width: 390px;
+}
+
+.local_right{
+    width: 540px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.local_right_top{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.local_right_bottom{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.local_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.local_info{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.design{
+    width: 100%;
+    height: 433px;
+    padding: 62px 144px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.design img{
+    width: 441px;
+    height: 433px;
+}
+
+.design_info{
+    width: 600px;
+    height: 308px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: start;
+    justify-content: center;
+}
+
+.design button{
+    width: 151px;
+    height: 52px;
+    padding: 14px 32px;
+    border: none;
+}
+
+.tesla{
+    width: 100%;
+    height: 390px;
+    padding: 32px 144px;
+    background-color: #F5F7FA;
+    margin-top: 20px;
+    display: flex;
+    gap: 78px;
+}
+
+.tesla img{
+    width: 326px;
+    height: 326px;
+    border-radius: 8px;
+}
+
+.tesla_info{
+    width: 748px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.tesla_logo{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: start;
+    margin-top: 25px;
+}
+
+.tesla_logo img{
+    width: 48px;
+    height: 48px;
+}
+
+
+.marketing{
+    width: 100%;
+    height: 506px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.marketing span{
+    width: 628px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.marketing_boxes{
+    height: 366px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 144px;
+    margin-top: 16px;
+    gap: 24px;
+}
+
+.marketing_box{
+    width: 368px;
+    height: 366px;
+    position: relative;
+}
+
+
+.marketing_box_info{
+    position: absolute;
+    top: 190px;
+    left: 25.5px;
+    background-color: #F5F7FA;
+    width: 317px;
+    height: 176px;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.marketing_box_info span{
+    width: 285px;
+    height: 84px;
+    margin-top: 15px;
+}
+
+
+.demo{
+    width: 100%;
+    height: 300px;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    background-color: #F5F7FA;
+    margin-top: 96px;
+}
+
+.demo span{
+    width: 800px;
+    height: 152px;
+    text-align: center;
+}
+
+.demo_btn{
+    width: 178px;
+    height: 52px;
+    padding: 14px 32px;
+    border: none;
+}
+
+footer{
+    width: 100%;
+    height: 328px;
+    padding: 64px 165px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: #263238;
+}
+
+.copyright{
+    width: 350px;
+    height: 189px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.copyright_info{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.copyright_logo{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    gap: 16px;
+}
+
+.copyright img{
+    width: 191px;
+    height: 29px;
+}
+
+
+.footer_right{
+    width: 635px;
+    height: 200px;
+    display: flex;
+    gap: 80px;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.support{
+    width: 160px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.update{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.update_input {
+    width: 255px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #d9dbe17a;
+    color: white;
+    padding: 10px;
+}
+
+.update_input::placeholder {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+
+.update_box{
+    width: 255px;
+    height: 40px;
+    position: relative;
+}
+
+.update_box img{
+    position: absolute;
+    top: 11px;
+    right: 12px;
+}
+
+
