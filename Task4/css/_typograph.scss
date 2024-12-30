@@ -1,0 +1,53 @@
+$font_300: 300;
+$font_400: 400;
+$font_500: 500;
+$font_600: 600;
+$font_700: 700;
+$font_800: 800;
+$font_900: 900;
+
+$text_size_12px: 12px; 
+$text_size_14px: 14px; 
+$text_size_16px: 16px; 
+$text_size_18px: 18px; 
+$text_size_20px: 20px; 
+$text_size_24px: 24px; 
+$text_size_26px: 26px;
+$text_size_40px: 40px;
+$text_size_44px: 44px; 
+$text_size_58px: 58px; 
+
+$color_black: black;
+$color_white: white;
+$color_FA: #FA4A0C;
+$color_73: #737373;
+$color_5C: #5C5C5C;
+
+
+
+$background_FA: #FA4A0C;
+$transparent: transparent; 
+
+
+@mixin flex($direction:row, $justify:center, $align:center, $gap){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+@mixin text_style($font_family, $font, $text_size, $color){
+    font-family: $font_family;
+    font-weight: $font;
+    font-size: $text_size;
+    color: $color;
+}
+
+@mixin button_design($width, $height, $background, $border_radius, $color){
+    width: $width;
+    height: $height;
+    background: $background;
+    border-radius: $border_radius;
+    color: $color;
+}
