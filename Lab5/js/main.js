@@ -1,7 +1,7 @@
 let box = document.querySelectorAll('.box');
 
-const image1 = './upper_arrow.png';
-const image2 = './down_arrow.png';
+const image1 = './assets/img/upper_arrow.png';
+const image2 = './assets/img/down_arrow.png';
 
 box.forEach(e =>{
     let headText = e.querySelector('.head');
