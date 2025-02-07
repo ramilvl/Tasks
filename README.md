@@ -23,4 +23,6 @@ https://ramil-lab2.netlify.app/
 Lab 3 <br>
 https://ramil-lab3.netlify.app/
 <br><br>
-
+Lab 5 <br>
+https://ramil-lab5.netlify.app/
+<br><br>
