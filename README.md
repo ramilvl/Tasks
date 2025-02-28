@@ -11,6 +11,8 @@ https://ramil-task3.netlify.app/
 Task 4 <br>
 https://ramil-task4.netlify.app/
 <br><br>
+Async Programming Task 1 <br>
+https://ramil-task1-js.netlify.app/
 
 
 # Labs
