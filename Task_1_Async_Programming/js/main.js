@@ -20,7 +20,7 @@ btnClient.addEventListener('click', ()=>{
 
     setTimeout(() => {
         spanEl.textContent='';
-        btnClient.disbaled = false;
+        btnClient.disabled = false;
         btnClient.classList.remove('disabled_btn');
     }, 5000);
 })
