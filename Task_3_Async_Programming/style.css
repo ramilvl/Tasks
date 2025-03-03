@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 150px;
+    height: 350px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.circle{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
